@@ -1,0 +1,83 @@
+.footer-layout {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.nvar-layout {
+    width: 100%;
+    height: 20%;
+    position: absolute;
+    top: 0;
+
+}
+
+
+.img-starbook {
+    width: 80px;
+    height: 80px;
+}
+
+.div-img-starbook {
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.toolbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-letrasStarbook {
+    margin-top: 10%;
+}
+
+.logosNavBar {
+    display: flex;
+}
+
+.shortcuts{
+    
+    margin: 0 auto;
+    margin-top: -15px;
+}
+
+
+
+.li-class{
+    text-decoration: none;
+    display: inline;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    color: white;
+    padding: 6px 12px;
+}
+
+
+.a-hover:hover{
+    cursor: pointer;
+    background-color: rgba(226, 229, 231, 0.433);
+    border-radius: 15px;
+}
+
+@media(max-width: 775){
+    .li-class{
+        padding: 6px 6px;
+    }
+}
+
+@media(max-width: 670px){
+
+
+    .logosNavBar{
+        display: none;
+    }
+    
+
+
+}
